@@ -1,5 +1,9 @@
-import tkinter as tk
+﻿import tkinter as tk
+from tkinter import*
+from tkinter import font
 
+
+# LIPP
 def show_bahamas():
     canvas.create_rectangle(0, 0, 300, 200, fill="#78DBE2")
     canvas.create_rectangle(0, 66, 300, 133, fill="yellow")
@@ -34,4 +38,11 @@ def show_kolumbi():
 
 kolumbi_button = tk.Button(root,text="Lipp Kolumbi",command=show_kolumbi)
 kolumbi_button.pack()
+
+
 root.mainloop()
+
+
+
+
+            
