@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="oval.py" />
     <Compile Include="VALGUSFOOR.py" />
     <Compile Include="Mustrid__Canvas_kasutamine.py" />
   </ItemGroup>
