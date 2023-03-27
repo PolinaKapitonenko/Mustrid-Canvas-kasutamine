@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a4128d96-f7db-4151-9ce2-8cab93fa043f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Mustrid__Canvas_kasutamine.py</StartupFile>
+    <StartupFile>Muster.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="näide.py" />
+    <Compile Include="Muster.py" />
     <Compile Include="oval.py" />
     <Compile Include="VALGUSFOOR.py" />
     <Compile Include="Mustrid__Canvas_kasutamine.py" />

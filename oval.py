@@ -13,9 +13,9 @@ colors = ["black",
            "lightblue",
            "pink",
            "gold"]
-raam2 = Tk
-raam2.title("Ringid")
-tahvel2 = Canvas(raam2, width=600, height=600, background="while")
+raam =Tk
+raam.title("Ringid")
+tahvel2 = Canvas(raam, width=600, height=600, background="while")
 x0=0
 y0=0
 x1=600
@@ -29,4 +29,4 @@ for i in range(55):
     tahvel2.create_oval(x0,y0,x1,y1, fill=choice(colors))
     #sleep(1)
 tahvel2.gird()
-raam2.mainloop()
+raam.mainloop()
