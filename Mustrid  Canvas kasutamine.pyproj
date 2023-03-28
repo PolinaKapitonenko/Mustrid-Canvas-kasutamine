@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a4128d96-f7db-4151-9ce2-8cab93fa043f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Muster.py</StartupFile>
+    <StartupFile>VALGUSFOOR.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
