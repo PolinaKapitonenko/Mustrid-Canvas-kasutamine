@@ -3,7 +3,7 @@ from math import*
 
 raam = Tk()
 raam.title("Tahvel")
-tahvel = Canvas(raam, width=1300, height=700, background="white")
+tahvel = Canvas(raam, width=700, height=350, background="white")
 tahvel.grid()
 k=10
 x0=400
