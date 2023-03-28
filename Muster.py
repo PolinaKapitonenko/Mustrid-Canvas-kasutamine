@@ -14,7 +14,7 @@ a=115
 r=(a**2+a**2)**(1/2)
 p=(a-r)
 
-for i in range(12):
+for i in range(9):
     x0+=p
     y0+=p
     x1-=p
@@ -30,8 +30,8 @@ tahvel.grid()
 
 x1=40
 y1=x1*8
-for x in range(8):
-    for c in range (8):
+for x in range(9):
+    for c in range (9):
             x2=x*x1
             y2=c*x1
             if(x+c)%2==0:
